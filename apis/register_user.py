@@ -3,10 +3,9 @@ from sqlalchemy.orm import Session
 from password_hashing import hash_password
 from models.user import User
 from database_connection import get_db
-from apis.recommend_movies import router
 from pydantic import BaseModel
 
-router = APIRouter(prefix="/users")
+router = APIRouter(prefix="/user")
 
 
 class UserCreate(BaseModel):

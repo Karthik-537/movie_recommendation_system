@@ -1,10 +1,11 @@
-from fastapi import Depends
-from apis.recommend_movies import router
+from fastapi import Depends, APIRouter
 from models.user import User
 from password_hashing import verify_password
 from database_connection import get_db
 from sqlalchemy.orm import Session
 from jwt.create_jwt_token import create_token
+
+router = APIRouter(prefix="/auth")
 
 
 @router.post("/login")
