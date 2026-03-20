@@ -12,7 +12,7 @@ vectors = np.load("artifacts/vectors.npy")
 df = pd.read_csv("data/movies.csv")
 
 
-@router.get("/recommend/")
+@router.get("/recommend")
 def recommend(movie_name: str, k: int = 5, user=Depends(verify_jwt_token)):
     matches = df[df["title"].str.lower() == movie_name.lower()]
     if matches.empty:
@@ -28,4 +28,11 @@ def recommend(movie_name: str, k: int = 5, user=Depends(verify_jwt_token)):
     return {
         "input_movie": movie_name,
         "recommendations": recommendations
+    }
+
+
+@router.get("/all")
+def get_movies(user=Depends(verify_jwt_token)):
+    return {
+        "movies": list(df["title"])
     }

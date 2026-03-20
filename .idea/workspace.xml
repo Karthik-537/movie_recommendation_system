@@ -5,13 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7b774add-a085-4745-b4f1-db04eb974d68" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/movie_recommendation_system.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apis/login_user.py" beforeDir="false" afterPath="$PROJECT_DIR$/apis/login_user.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apis/recommend_movies.py" beforeDir="false" afterPath="$PROJECT_DIR$/apis/recommend_movies.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jwt/create_jwt_token.py" beforeDir="false" afterPath="$PROJECT_DIR$/jwt/create_jwt_token.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jwt/verify_jwt_token.py" beforeDir="false" afterPath="$PROJECT_DIR$/jwt/verify_jwt_token.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,7 +38,7 @@
   <component name="PropertiesComponent">{
   &quot;keyToString&quot;: {
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/91934/PycharmProjects/ats_system&quot;
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/91934/PycharmProjects/movie_recommendation_system&quot;
   }
 }</component>
   <component name="RecentsManager">
@@ -67,6 +65,19 @@
       <option name="presentableId" value="Default" />
       <updated>1773754785222</updated>
     </task>
+    <task id="LOCAL-00001" summary="Added routers">
+      <option name="closed" value="true" />
+      <created>1773932852921</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1773932852921</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Added routers" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added routers" />
   </component>
 </project>
